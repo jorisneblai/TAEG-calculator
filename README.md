@@ -12,6 +12,7 @@ L'application de calcul du TAEG (Taux Annuel Effectif Global) vous permettra de 
 
 #### *Explications des choix de techno et framework*
 J'ai décidé pour ce projet d'utiliser le language de programmation JavaScript qui est le seul que j'ai appris et continue d'apprendre à utiliser.
+
 De plus, j'ai décidé d'utiliser le Framework React pour construire l'*User Inferface*, l'appréciant et le trouvant très pratique et intuitif en terme d'utilisation.
 
 #### *Améliorations envisageables*
