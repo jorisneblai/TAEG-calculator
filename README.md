@@ -16,4 +16,5 @@ De plus, j'ai décidé d'utiliser le Framework React pour construire l'*User Inf
 
 #### *Améliorations envisageables*
 La validation des données de formulaire pour permettre de les traiter correctement et de ne pas casser l'application.
+
 Perfectionnement du style de l'intégralité de l'application.
