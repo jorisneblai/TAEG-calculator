@@ -4,6 +4,7 @@ import './TaegForm.css';
 import calculateTaeg from '../../Scripts/CalcultateTaeg';
 
 const TaegForm = () => {
+  // The state with the const allowing display the result, and all the consts for the different values settled at null before the user fill the inputs
     const [showResult, setShowResult] = useState(false);
     const [loan, setLoan] = useState(null);
     const [duration, setDuration] = useState(null);
@@ -14,6 +15,7 @@ const TaegForm = () => {
     const [taeg, setTaeg] = useState(0);
 
     const handleSubmit = (e) => {
+      // This function allow to display the result when the user submit the form
       e.preventDefault();
       setTaeg(calculateTaeg(parseFloat(loan), parseFloat(duration), parseFloat(nominalRate), parseFloat(warrantyFees), parseFloat(applicationFees), parseFloat(insuranceRate)));
       setShowResult(true);
